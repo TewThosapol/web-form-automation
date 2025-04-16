@@ -10,9 +10,8 @@ import time
 text_input = "Thosapol"
 password_input = "Q48w94CE0Py"
 textarea_input = "Selenium test form"
-delay = 2  # หน่วงเวลาไว้ดูแต่ละขั้นตอน
+delay = 2  
 
-# เริ่มต้น browser
 driver = webdriver.Chrome()
 wait = WebDriverWait(driver, 10)
 driver.get("https://www.selenium.dev/selenium/web/web-form.html")
